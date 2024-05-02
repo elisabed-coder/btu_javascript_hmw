@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/elisabed-coder/btu_javascript_hmw#readme",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "is-odd": "^3.0.1"
   }
 }
