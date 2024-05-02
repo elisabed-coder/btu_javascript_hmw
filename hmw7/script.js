@@ -7,7 +7,6 @@ async function fetchData() {
     const planets = await serverResponse.json();
 
     const destination = document.querySelector(".destination");
-    const userContainer = document.querySelector(".user");
 
     let currentIndex = 0;
 
@@ -25,7 +24,6 @@ async function fetchData() {
 
     showPlanet(currentIndex);
 
-    // Event listener for clickable next button
     destination.addEventListener("click", () => {
       currentIndex = (currentIndex + 1) % planets.length;
       showPlanet(currentIndex);
